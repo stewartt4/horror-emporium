@@ -3,8 +3,8 @@
 /* Color Variables */
 
 $lightgray: #999;
-$black: #000;
-$white: #fff;
+$mediumlightgray: #eaeaea;
+$darkgrey: #222;
 
 /* universal */
 html {
@@ -56,30 +56,30 @@ li {
 /* header */
 #logo {
   float: left; margin-right: 10px; font-size: 1.7em;
-  color: $white; text-transform: uppercase; letter-spacing: -1px; padding-top: 9px; font-weight: bold; line-height: 1;
+  color: white; text-transform: uppercase; letter-spacing: -1px; padding-top: 9px; font-weight: bold; line-height: 1;
 }
 
 #logo:hover {
-  color: $white; text-decoration: none;
+  color: white; text-decoration: none;
 }
 
 .navbar {
-  background-color: $black;
+  background-color: black;
 }
 
 /* footer */
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea; color: $lightgray;
+  border-top: 1px solid $mediumlightgray; color: $lightgray;
 }
 
 footer a { 
-  color: #555;
+  color: grey;
 }
 
 footer a:hover { 
-  color: #222;
+  color: $darkgrey;
 }
 footer small { 
   float: left;
