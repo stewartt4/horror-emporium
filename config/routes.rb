@@ -1,8 +1,8 @@
 HorrorEmporium::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/help"
-  get "static_pages/about"
-  get "static_pages/contact"
+  get '/help' => 'static_pages#help'
+  get '/about' => 'static_pages#about'
+  get '/contact' => 'static_pages#contact'
+  get '/signup' => 'users#new'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -13,10 +13,10 @@ HorrorEmporium::Application.routes.draw do
   #   get 'products/:id' => 'catalog#view'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
-  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
+  #   get 'users/new' => 'users#new', as: :signup
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
+  #   resources :static_pages
 
   # Example resource route with options:
   #   resources :products do
