@@ -1,0 +1,101 @@
+classy = Kernel.const_get(cls)
+if classy.instance_methods.include?(meth)
+if classy.instance_methods.include?(:"#{meth}")
+true
+filename = "/etc/foo/password"
+filename.split("/")[0..-2]
+filename.split("/")[0..-1]
+filename.split("/")[1..-2]
+filename.split("/")[1..-2].join("/")
+filename = '/' + params[:captures][0]
+  parentDir = filename.split("/")[0]
+  Dir.chdir(parentDir) do
+    Dir.glob('**/#{parentDir[-1]}') do |file|
+/password') do |file|
+puts file
+Dir.glob('**/"password"') do |file|
+File.directory? "/etc/"
+File.directory? "/etc/passwd"
+File.file? "/etc/passwd"
+File.directory? "/Users/bdtcrush/"
+File.directory? "/Users/bdtcrush"
+hash = {"test", "blah"}
+hash = {:test => "blah", :5 => :65}
+hash = {:test => "blah", :kdsjkf => :65}
+hash = {:test => "blah", :kdsjkf => 65}
+hash.all
+hash.keys
+hash.values
+hash.keys.balues
+hash.keys.values
+hash.keys + hash.values
+File.stat("/etc/passwd").method
+File.stat("/etc/passwd").methods
+File.stat("/etc/passwd").methods.sort
+File.stat("/etc/passwd").uid.uder
+File.stat("/etc/passwd").uid.user
+grep 'UIDnumber' /etc/passwd
+`grep "UIDnumber" /etc/passwd`
+`grep "0" /etc/passwd`
+`grep "uid" /etc/passwd`
+`grep ":0:" /etc/passwd`
+usr = `grep ":0:" /etc/passwd`.split(:)[0]
+usr = `grep ":0:" /etc/passwd`.split(":")[0]
+`$User`
+`$USER`
+`echo "$USER"`
+`echo "$USER"`.chomp
+`"$USER"`.chomp
+`echo "$USER"`.chomp!
+File.stat("/etc/passwd").uid
+File.stat("/etc/passwd")
+File.stat("/etc/passwd").mode
+"%o" % 33188
+"%o" % 33188 #
+33188.to_s(10)
+33188.to_s(2)
+33188.to_s(8)
+(File.stat("/etc/passwd").mode).to_s(8)
+(File.stat("/etc/passwd").mode).to_s(8)[-3]
+(File.stat("/etc/passwd").mode).to_s(8)[-3..-1]
+stat
+`stat "/etc/passwd"`
+`stat "/etc/passwd"`.spit
+`stat "/etc/passwd"`.split
+`stat "/etc/passwd"`.split[2]
+if File.executable? "/etc/passwd"
+File.executable? "/etc/passwd"
+File.executable? "/etc/"
+ls
+`ls`
+puts `ls`
+File.each_line('irb.log') do |test|
+puts test
+File.exist?("/etc/")
+File.exist?("/etc")
+File.exist?("/etd")
+File.exist?(/etc/password)
+File.exist?(/etc/passwod)
+File.exist?(/etc/passwd)
+File.exist?('/etc/passwd')
+File.directory?('/etc/passwd')
+first_user = User.first
+first_user.microposts
+User.first.microposts
+require 'nokogiri'
+clear
+dir
+File.dir
+file
+line
+file.readline.each do |line|
+line.gsub("/etc/", "/test/")
+line = line.gsub("/etc/", "/test/")
+puts line
+file = File.open("irb.log")
+file.each do |line|
+line = line.gsub("/etc/", "/farts/")
+  puts line
+end
+exit
+exit
