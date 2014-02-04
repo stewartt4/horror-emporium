@@ -6,6 +6,11 @@ $lightgray: #999;
 $mediumlightgray: #eaeaea;
 $darkgrey: #222;
 
+@font-face {
+font-family: UnquietSpirits;
+src: url(UnquietSpirits.ttf);
+}
+
 /* universal */
 html {
   overflow-y: scroll;
@@ -26,6 +31,11 @@ textarea {
 
 .center { 
   text-align: center;
+}
+
+.back {
+  text-align: left;
+  padding-top:50px;
 }
 
 .center h1 { 
@@ -55,12 +65,14 @@ li {
 
 /* header */
 #logo {
-  float: left; margin-right: 10px; font-size: 1.7em;
+  float: left; margin-right: 10px; font-size: 1.9em;
   color: white; text-transform: uppercase; letter-spacing: -1px; padding-top: 9px; font-weight: bold; line-height: 1;
+  font-family: UnquietSpirits;
 }
 
 #logo:hover {
-  color: white; text-decoration: none;
+  color: red; text-decoration: none;
+  font-family: UnquietSpirits;
 }
 
 .navbar {
@@ -89,4 +101,14 @@ footer ul {
 }
 footer ul li { 
   float: left; margin-left: 10px;
+}
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+border: 1px solid #bbb;
+width: 100%;
+padding: 10px;
+height: auto; 
+margin: 10px;
 }

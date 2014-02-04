@@ -3,17 +3,19 @@ source 'https://rubygems.org'
 # Use ruby 2.1.0
 ruby '2.1.0'
 
-gem 'bootstrap-sass'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
 # Sass Awsomeness
 gem 'bootstrap-sass'
 
+# Password Encrytion
+gem 'bcrypt-ruby'
+
+# Postgres
+gem 'pg'
+
 group :development, :test do
-	# Use sqlite3 as the database for Active Record
-	gem 'sqlite3'
 	gem 'rspec-rails'
 end
 
@@ -43,7 +45,6 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 group :production do 
-	gem 'pg'
 	gem 'rails_12factor'
 end
 
